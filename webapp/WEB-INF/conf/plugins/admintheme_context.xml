@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd" >
+
+    <!-- Startup Service call after plugins initialization -->
+    <bean id="admintheme.postStartupService" class="fr.paris.lutece.plugins.admintheme.service.AdminThemePostStartupService" />
+
+    <!-- Auto includes configuration -->
+    <bean id="admintheme.autoIncludesConfiguration" class="fr.paris.lutece.plugins.admintheme.business.AutoIncludesConfiguration">
+        <property name="includes">
+            <list>
+    <!--          <value>*/commons2.html</value>   Sample for adding a new commons.html -->
+            </list>
+        </property>
+        <property name="excludes">
+            <list>
+    <!--           <value>*/commons.html</value>    Sample for removing commons.html -->
+            </list>
+        </property>
+    </bean>
+    
+</beans>

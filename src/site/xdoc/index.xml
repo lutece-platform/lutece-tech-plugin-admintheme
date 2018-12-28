@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <properties>
+        <title>Plugin AdminTheme</title>
+    </properties>
+    <body>
+        <section name="Plugin AdminTheme">
+            <subsection name="Introduction">
+                <p>This plugin can reconfigure auto-include files used by Freemarker such as commons.html file </p>
+            </subsection>
+            <subsection name="Configuration">
+                <p>Define in the file <code>admintheme_context.xml</code> the list of auto-include files to add or to remove</p>
+            </subsection>
+        </section>
+    </body>
+</document>
+

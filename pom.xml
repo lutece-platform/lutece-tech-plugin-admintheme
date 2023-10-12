@@ -48,4 +48,11 @@
         <jiraProjectName>ADMINTHEME</jiraProjectName>
         <jiraComponentId></jiraComponentId>
     </properties>
+
+    <scm>
+        <connection>scm:git:https://github.com/lutece-platform/lutece-tech-plugin-admintheme.git</connection>
+        <developerConnection>scm:git:https://github.com/lutece-platform/lutece-tech-plugin-admintheme.git</developerConnection>
+        <url>https://github.com/lutece-platform/lutece-tech-plugin-admintheme.git</url>
+    </scm>
+
 </project>

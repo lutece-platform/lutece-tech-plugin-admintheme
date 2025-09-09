@@ -38,7 +38,7 @@
         <dependency>
             <groupId>fr.paris.lutece</groupId>
             <artifactId>lutece-core</artifactId>
-            <version>[6.0.0,)</version>
+            <version>[6.0.0,7.9.9)</version>
             <type>lutece-core</type>
         </dependency>
     </dependencies>
@@ -46,7 +46,7 @@
     <properties>
         <componentName>admintheme</componentName>
         <jiraProjectName>ADMINTHEME</jiraProjectName>
-        <jiraComponentId></jiraComponentId>
+        <jiraComponentId />
     </properties>
 
     <scm>
